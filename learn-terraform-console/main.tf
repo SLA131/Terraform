@@ -3,7 +3,6 @@
 
 provider "aws" {
   region = var.aws_region
-  profile = "ec2-user"
 
   default_tags {
     tags = {
