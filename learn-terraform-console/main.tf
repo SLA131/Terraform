@@ -3,7 +3,8 @@
 
 provider "aws" {
   region = var.aws_region
-  profile = var.profile
+  secret_key = "tefsNobT84O0B/P5ZTfQXta3FyUz2Xuvlz6jRoqm"
+  access_key = "AKIAXLBO6AMDDST2KL22"
 
   default_tags {
     tags = {
